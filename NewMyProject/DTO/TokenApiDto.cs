@@ -1,0 +1,9 @@
+﻿namespace NewMyProject.Entities
+{
+    //Модель токена
+    public class TokenApiDto
+    {
+        public string? AccessToken { get; set; }
+        public string? RefreshToken { get; set; }
+    }
+}
